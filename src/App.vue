@@ -1,9 +1,16 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
-    <div>
-      <el-button @click="startHacking">Start</el-button>
-    </div>
+
+    <el-row>
+      <el-col :span="8"><div class="grid-content bg-purple">哈哈哈哈哈哈哈哈</div></el-col>
+      <el-col :span="8"><div class="grid-content bg-purple-light">
+        <img src="./assets/logo.png">
+        <div>
+          <el-button @click="startHacking">Start</el-button>
+        </div>
+      </div></el-col>
+      <el-col :span="8"><div class="grid-content bg-purple">哈哈哈哈哈哈哈哈</div></el-col>
+    </el-row>
   </div>
 </template>
 
