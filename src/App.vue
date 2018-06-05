@@ -5,6 +5,7 @@
       <el-col :span="2"><div class="grid-content"><img src="./assets/assassin.jpg" height="60"></div></el-col>
       <el-col :span="8"><div class="grid-content" style="height: 50px">
         <div style="height: 30px;margin: 10px" >WITHING</div>
+        <el-button type="primary">hhhhhhhh</el-button>
       </div></el-col>
       <el-col :span="10"><div class="grid-content">
         <el-menu :default-active="activeIndex" class="el-menu-demo" mode="horizontal" @select="handleSelect" active-text-color="#00BFFF">
@@ -29,6 +30,9 @@
         </el-carousel>
       </div></el-col>
       <el-col :span="6">h</el-col>
+    </el-row>
+    <el-row id="">
+      <el-col></el-col>
     </el-row>
   </div>
 
